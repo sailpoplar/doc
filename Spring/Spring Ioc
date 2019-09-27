@@ -8,3 +8,25 @@
       6.specific adj.特殊的,特定的;明确的;详细的
       7.application-layer 应用层
     org.springframework.beans与org.springframework.context包是Spring Ioc容器的基础,BeanFactory接口提供高级的配置机制,ApplicationContext是BeanFactory的子接口,它可以更新容易集成Spring的AOP功能,消息资源处理(用于国际化),事件发布,与特定应用层上下文,比如WebApplicationContext应用于web应用
+    
+    
+    
+    Several implementations of the ApplicationContext interface are supplied out-of-the-box with Spring. In standalone applications it is common to create an instance of ClassPathXmlApplicationContext or FileSystemXmlApplicationContext. While XML has been the traditional format for defining configuration metadata you can instruct the container to use Java annotations or code as the metadata format by providing a small amount of XML configuration to declaratively enable support for these additional metadata formats.
+    单词标注:
+    1.out-of-the-box adj.开箱即用的
+    2.supplied v.提供;供应(supply的过去式)
+    3.several   adj.几个的;各自的
+    4.standalone  adj.(计算机)独立运行的;(公司)独立的
+    5.traditional adj.传统的;惯例的
+    6.additional adj.附加的,额外的
+    Spring提供ApplicationContext接口的几种实现,在一个独立运行的应用程序中,通常创建一个ClassPathXmlApplicationContext或FileSystemXmlApplicationContext实例,尽管XML是定义配置元数据的传统格式，以Java注解与代码元数据格式提供
+
+
+
+        In most application scenarios, explicit user code is not required to instantiate one or more instances of a Spring IoC container. For example, in a web application scenario, a simple eight (or so) lines of boilerplate web descriptor XML in the web.xml file of the application will typically suffice (see Convenient ApplicationContext instantiation for web applications). If you are using the Spring Tool Suite Eclipse-powered development environment this boilerplate configuration can be easily created with few mouse clicks or keystrokes.
+         单词标注:
+         scenarios     n.情节;脚本;情景介绍
+         explicit      adj.明确的;清楚的;详述的
+         在大多数据应用场景中,
+         
+         
